@@ -6,11 +6,13 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
  	<script src="https://code.jquery.com/jquery.js"></script>
  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="styles.css">
+	<link href="https://fonts.googleapis.com/css?family=Actor" rel="stylesheet">
 </head>
 <body>
-	<div class="container">
+	<div class="container survey-contain">
 		<div class="page-header">
-  		<h1>Survey Questions</h1>
+  		<h1 id="header-text">Survey Questions</h1>
 		</div>
 		<h2><strong>About You</strong></h2>
 		<h3>Name (required)</h3>
@@ -19,7 +21,7 @@
 		<input type="text" name id="photo" class="form-control" required>
 		<h2><strong>Question 1</strong></h2>
 		<h3>Susan Sarandon is cooler than Susan B. Anthony.</h3>
-		<select placeholder class="chosen-select" id="q1">
+		<select class="chosen-select" id="q1">
 			<option selected="selected" class="default-option" style="display: none;">Select One</option>
 			<option value="1">1 (Strongly Disagree)</option>
 			<option value="2">2</option>
@@ -29,7 +31,7 @@
 		</select>
 		<h2><strong>Question 2</strong></h2>
 		<h3>James Caan is cooler than Ghengis Khan.</h3>
-		<select placeholder class="chosen-select" id="q2">
+		<select class="chosen-select" id="q2">
 			<option selected="selected" class="default-option" style="display: none;">Select One</option>
 			<option value="1">1 (Strongly Disagree)</option>
 			<option value="2">2</option>
@@ -39,7 +41,7 @@
 		</select>
 		<h2><strong>Question 3</strong></h2>
 		<h3>Tony Bennet is cooler than Tony! Toni! Tone!.</h3>
-		<select placeholder class="chosen-select" id="q3">
+		<select class="chosen-select" id="q3">
 			<option selected="selected" class="default-option" style="display: none;">Select One</option>
 			<option value="1">1 (Strongly Disagree)</option>
 			<option value="2">2</option>
@@ -49,7 +51,7 @@
 		</select>
 		<h2><strong>Question 4</strong></h2>
 		<h3>Lawrence Olivier is cooler than Martin Lawrence.</h3>
-		<select placeholder class="chosen-select" id="q4">
+		<select  class="chosen-select" id="q4">
 			<option selected="selected" class="default-option" style="display: none;">Select One</option>
 			<option value="1">1 (Strongly Disagree)</option>
 			<option value="2">2</option>
@@ -59,7 +61,7 @@
 		</select>
 		<h2><strong>Question 5</strong></h2>
 		<h3>Black Sabbath is cooler than Black Flag.</h3>
-		<select placeholder class="chosen-select" id="q5">
+		<select class="chosen-select" id="q5">
 			<option selected="selected" class="default-option" style="display: none;">Select One</option>
 			<option value="1">1 (Strongly Disagree)</option>
 			<option value="2">2</option>
@@ -69,7 +71,7 @@
 		</select>
 		<h2><strong>Question 6</strong></h2>
 		<h3>Stephen Colbert is cooler than Stephen Hawking.</h3>
-		<select placeholder class="chosen-select" id="q6">
+		<select class="chosen-select" id="q6">
 			<option selected="selected" class="default-option" style="display: none;">Select One</option>
 			<option value="1">1 (Strongly Disagree)</option>
 			<option value="2">2</option>
@@ -79,7 +81,7 @@
 		</select>
 		<h2><strong>Question 7</strong></h2>
 		<h3>Chuck Yeager is cooler than Chuck Norris.</h3>
-		<select placeholder class="chosen-select" id="q7">
+		<select class="chosen-select" id="q7">
 			<option selected="selected" class="default-option" style="display: none;">Select One</option>
 			<option value="1">1 (Strongly Disagree)</option>
 			<option value="2">2</option>
@@ -89,7 +91,7 @@
 		</select>
 		<h2><strong>Question 8</strong></h2>
 		<h3>John Carpenter is cooler than John Elway.</h3>
-		<select placeholder class="chosen-select" id="q8">
+		<select class="chosen-select" id="q8">
 			<option selected="selected" class="default-option" style="display: none;">Select One</option>
 			<option value="1">1 (Strongly Disagree)</option>
 			<option value="2">2</option>
@@ -99,7 +101,7 @@
 		</select>
 		<h2><strong>Question 9</strong></h2>
 		<h3>Randy Marsh is cooler than  The Macho Man Randy Savage.</h3>
-		<select placeholder class="chosen-select" id="q9">
+		<select class="chosen-select" id="q9">
 			<option selected="selected" class="default-option" style="display: none;">Select One</option>
 			<option value="1">1 (Strongly Disagree)</option>
 			<option value="2">2</option>
@@ -109,7 +111,7 @@
 		</select>
 		<h2><strong>Question 10</strong></h2>
 		<h3>Lying can be a great alternative to telling the truth.</h3>
-		<select placeholder class="chosen-select" id="q10">
+		<select class="chosen-select" id="q10">
 			<option selected="selected" class="default-option" style="display: none;">Select One</option>
 			<option value="1">1 (Strongly Disagree)</option>
 			<option value="2">2</option>

@@ -1,0 +1,38 @@
+body {
+	background-color: black;
+}
+
+.jumbotron {
+	background-color: #B1252B;
+	margin-top: 175px;
+	font-family: 'Shrikhand', cursive;
+}
+.survey-contain {
+	color: #B1252B;
+	font-family: 'Actor', sans-serif;
+	border: solid 2px #286090;
+	margin-top: 20px;
+}
+.page-header {
+	background-color: #B1252B;
+	color: black;
+	border-bottom-color: black;
+	text-align: center;
+	margin-top: 10px;
+	border-radius: 15px;
+}
+#btn-homepage {
+	color: black;
+}
+.glyphicon-sunglasses {
+	color: #286090;
+}
+#submit {
+	color: #B1252B;
+}
+#hr-1 {
+	border: solid 1px black;
+}
+#header-text {
+	padding-top: 20px;
+}
