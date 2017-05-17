@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Friend Finder</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+ 	<script src="https://code.jquery.com/jquery.js"></script>
+ 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="page-header">
+  		<h1>Survey Questions</h1>
+		</div>
+		<h2><strong>About You</strong></h2>
+		<h3>Name (required)</h3>
+		<input type="text" name id="name" class="form-control" required>
+		<h3>Link to Photo Image (required)</h3>
+		<input type="text" name id="photo" class="form-control" required>
+		<h2><strong>Question 1</strong></h2>
+		<h3>Susan Sarandon is cooler than Susan B. Anthony.</h3>
+		<select placeholder class="chosen-select" id="q1">
+			<option selected="selected" class="default-option" style="display: none;">Select One</option>
+			<option value="1">1 (Strongly Disagree)</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5 (Strongly Agree)</option>
+		</select>
+		<h2><strong>Question 2</strong></h2>
+		<h3>James Caan is cooler than Ghengis Khan.</h3>
+		<select placeholder class="chosen-select" id="q2">
+			<option selected="selected" class="default-option" style="display: none;">Select One</option>
+			<option value="1">1 (Strongly Disagree)</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5 (Strongly Agree)</option>
+		</select>
+		<h2><strong>Question 3</strong></h2>
+		<h3>Tony Bennet is cooler than Tony! Toni! Tone!.</h3>
+		<select placeholder class="chosen-select" id="q3">
+			<option selected="selected" class="default-option" style="display: none;">Select One</option>
+			<option value="1">1 (Strongly Disagree)</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5 (Strongly Agree)</option>
+		</select>
+		<h2><strong>Question 4</strong></h2>
+		<h3>Lawrence Olivier is cooler than Martin Lawrence.</h3>
+		<select placeholder class="chosen-select" id="q4">
+			<option selected="selected" class="default-option" style="display: none;">Select One</option>
+			<option value="1">1 (Strongly Disagree)</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5 (Strongly Agree)</option>
+		</select>
+		<h2><strong>Question 5</strong></h2>
+		<h3>Black Sabbath is cooler than Black Flag.</h3>
+		<select placeholder class="chosen-select" id="q5">
+			<option selected="selected" class="default-option" style="display: none;">Select One</option>
+			<option value="1">1 (Strongly Disagree)</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5 (Strongly Agree)</option>
+		</select>
+		<h2><strong>Question 6</strong></h2>
+		<h3>Stephen Colbert is cooler than Stephen Hawking.</h3>
+		<select placeholder class="chosen-select" id="q6">
+			<option selected="selected" class="default-option" style="display: none;">Select One</option>
+			<option value="1">1 (Strongly Disagree)</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5 (Strongly Agree)</option>
+		</select>
+		<h2><strong>Question 7</strong></h2>
+		<h3>Chuck Yeager is cooler than Chuck Norris.</h3>
+		<select placeholder class="chosen-select" id="q7">
+			<option selected="selected" class="default-option" style="display: none;">Select One</option>
+			<option value="1">1 (Strongly Disagree)</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5 (Strongly Agree)</option>
+		</select>
+		<h2><strong>Question 8</strong></h2>
+		<h3>John Carpenter is cooler than John Elway.</h3>
+		<select placeholder class="chosen-select" id="q8">
+			<option selected="selected" class="default-option" style="display: none;">Select One</option>
+			<option value="1">1 (Strongly Disagree)</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5 (Strongly Agree)</option>
+		</select>
+		<h2><strong>Question 9</strong></h2>
+		<h3>Randy Marsh is cooler than  The Macho Man Randy Savage.</h3>
+		<select placeholder class="chosen-select" id="q9">
+			<option selected="selected" class="default-option" style="display: none;">Select One</option>
+			<option value="1">1 (Strongly Disagree)</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5 (Strongly Agree)</option>
+		</select>
+		<h2><strong>Question 10</strong></h2>
+		<h3>Lying can be a great alternative to telling the truth.</h3>
+		<select placeholder class="chosen-select" id="q10">
+			<option selected="selected" class="default-option" style="display: none;">Select One</option>
+			<option value="1">1 (Strongly Disagree)</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5 (Strongly Agree)</option>
+		</select>
+		<br>
+		<br>
+		<button type="button" class="btn btn-primary btn-lg btn-block" id="submit"><h3>Submit</h3></button>
+		<hr>
+		<div class ="container">
+			<h5><a href="/api/friends">API Friends List | </a><a href="https://github.com/btarman/FriendFinder">Github Repo</a>
+			</h5>
+		</div>
+	</div>
+	<div id="friendModal" class="modal fade" role="dialog">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal">X</button>
+					<h2 class="modal-title">Best Match</h2>
+				</div>
+				<div class="modal-body">
+					<h2 id="bestMatchName"></h2>
+					<img id="bestMatchImg" src="" alt="photo of best match" height=400px width=400px>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+
+	<script type="text/javascript">
+		$('#submit').click(function(event) {
+			event.preventDefault();
+			var selectedAns = [
+								$('#q1').val(), 
+								$('#q2').val(), 
+								$('#q3').val(), 
+								$('#q4').val(), 
+								$('#q5').val(), 
+								$('#q6').val(), 
+								$('#q7').val(), 
+								$('#q8').val(), 
+								$('#q9').val(), 
+								$('#q10').val()
+								]
+			var friendInfo = {
+				name: $('#name').val().trim(),
+				photo: $('#photo').val().trim(),
+				answers: selectedAns
+			}
+			var currentURL = window.location.origin;
+
+			$.post(currentURL + "/api/friends", friendInfo, function(data) {
+				$("#bestMatchName").text(data.name);
+				$("#bestMatchImg").attr("src", data.photo);
+				$("#friendModal").modal("show");
+			});
+			$('#name').val("");
+			$("#photo").val("");
+			$(".chosen-select").val("Select One");
+		})
+		
+	</script>
+	
+</body>
+</html>

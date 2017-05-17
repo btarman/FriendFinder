@@ -1,0 +1,24 @@
+{
+  "name": "friendfinder",
+  "version": "1.0.0",
+  "description": "An app that matches friends",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/btarman/FriendFinder.git"
+  },
+  "author": "Bill Tarman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/btarman/FriendFinder/issues"
+  },
+  "homepage": "https://github.com/btarman/FriendFinder#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2"
+  }
+}
