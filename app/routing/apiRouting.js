@@ -34,9 +34,7 @@ module.exports = function(app) {
 		res.json(bestMatch)
 		
 	})
-	app.post("/api/clear", function() {
-		friendsData = []
-	})
+	
 
 }
 
